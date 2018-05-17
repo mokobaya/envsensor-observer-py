@@ -1,0 +1,8 @@
+
+{
+    "description": "Omron Data Collection Program",
+    "scripts": {
+        "start": "python ./envsensor-observer-py/envsensor_observer.py"
+    }
+}
+
