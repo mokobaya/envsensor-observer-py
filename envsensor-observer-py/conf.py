@@ -37,9 +37,9 @@ FLUENTD_INFLUXDB_DATABASE = "xxxxxxxx"  # enter influxDB database name
 # uploading data to the cloud (required influxDB 0.9 or higher)
 INFLUXDB_OUTPUT = False
 # InfluxDB
-INFLUXDB_ADDRESS = "xxx.xxx.xxx.xxx"  # enter IP address of influxDB
+INFLUXDB_ADDRESS = "192.168.111.206"  # enter IP address of influxDB
 INFLUXDB_PORT = 8086  # enter port number of influxDB
-INFLUXDB_DATABASE = "xxxxxxxx"  # enter influxDB database name
-INFLUXDB_MEASUREMENT = "xxxxxxxx"  # enter measurement name
+INFLUXDB_DATABASE = "HelloDB"  # enter influxDB database name
+INFLUXDB_MEASUREMENT = "value"  # enter measurement name
 INFLUXDB_USER = "root"  # enter influxDB username
 INFLUXDB_PASSWORD = "root"  # enter influxDB user password
