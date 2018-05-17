@@ -15,7 +15,7 @@ INACTIVE_TIMEOUT_SECONDS = 60
 
 
 # csv output to local file system
-CSV_OUTPUT = True
+CSV_OUTPUT = False
 # the directory path for csv output
 CSV_DIR_PATH = os.path.dirname(os.path.abspath(__file__)) + "/log"
 
