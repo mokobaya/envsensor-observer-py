@@ -35,7 +35,7 @@ FLUENTD_INFLUXDB_DATABASE = "xxxxxxxx"  # enter influxDB database name
 
 
 # uploading data to the cloud (required influxDB 0.9 or higher)
-INFLUXDB_OUTPUT = False
+INFLUXDB_OUTPUT = True
 # InfluxDB
 INFLUXDB_ADDRESS = "192.168.111.206"  # enter IP address of influxDB
 INFLUXDB_PORT = 8086  # enter port number of influxDB
